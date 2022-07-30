@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeClass;
 
 
 public class TC701_DashBoard {
-	@BeforeClass
+	@Test
 	public void launcBrowser() {
 		System.setProperty("webdriver.chrome.driver",Configurations.driverPath);
 		driver = new ChromeDriver();	
