@@ -17,7 +17,7 @@ public class WatchList_POM {
 		
 		//intialization
 		
-		Admin_POM(WebDriver driver){
+		WatchList_POM(WebDriver driver){
 			PageFactory.initElements(driver, this);		
 		}
 		
